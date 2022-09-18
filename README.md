@@ -21,6 +21,10 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
+Обновить менеджер пакетов pip
+```
+python3 -m pip install --upgrade pip
+```
 Установить зависимости из файла requirements.txt
 ```
 pip install -r requirements.txt
